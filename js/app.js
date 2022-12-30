@@ -21,6 +21,8 @@ $(document).ready(function () {
         }
     })
 
+    
+
     $('#projects-slider').owlCarousel({
         loop: true,
         nav: false,
@@ -52,3 +54,4 @@ $(document).ready(function () {
         autoplayTimeout: 4000,
     })
 });
+

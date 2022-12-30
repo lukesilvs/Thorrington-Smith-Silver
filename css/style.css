@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('htbx bxs-phone-calltps://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 
 :root {
     --brand: #ff2929;
@@ -131,14 +131,14 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/CarAccident.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/UmhlangaPier.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,6 +164,18 @@ section {
     color: #fff;
 }
 
+
+.phone-link {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.phone-white:hover{
+    color:white;
+    font-weight: bold ;
+    
+}
 
 .top-nav span,
 .top-nav i {
@@ -256,7 +268,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(255, 41, 41, 0.85), rgba(255, 41, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(255, 41, 41, 0.85), rgba(255, 41, 41, 0.85)), url(../img/AdobeStock_41557376.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -377,7 +389,7 @@ text-align: center;}
 
 #reviews {
 
-    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg), #082032;;
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/HighCourt.jpeg), #082032;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,10 +477,14 @@ text-align: center;}
 }
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/AdobeStock_JusticeBalance.jpeg), #082032;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.address-link{
+    color: #ADB3B9;
+  
 }
 
 footer .footer-top {
@@ -481,6 +497,20 @@ footer .footer-top {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.map{
+    width: 90%;
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    
+ 
+    padding-top: 30px;
+    overflow: hidden;
+   
+}
+
 
 footer .navbar-brand {
     color: #fff;
