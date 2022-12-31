@@ -53,5 +53,27 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 4000,
     })
-});
 
+
+
+
+$('.team-slider').owlCarousel({
+    loop: true,
+    nav: false,
+    dots: false,
+    smartSpeed: 800,
+    items: 3,
+    margin: 24,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 3,
+            margin: 8,
+        }
+    }
+})
+});
