@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Thorrington-Smith & Silver</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                    <div class="col-auto">
+                           <p><a class="phone-link phone-white" href="email:careers@thorringtonsmithandsilver.co.za"> <i class='bx bxs-envelope' ></i> careers@thorringtonsmithandsilver.co.za</a></p> 
+                    </div>
+                    <div class="col-auto social-icons">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.linkedin.com/company/thorrington-smith-silver/"><i class='bx bxl-linkedin'></i></a>
+                        <box-icon type='logo' name='linkedin'></box-icon>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Thorrington-Smith & Silver<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Team</a>
+                    </li> 
+                </ul>
+                <div class="mobileHide"> 
+                    <a href="#" class="btn btn-brand ms-lg-3">Careers</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <section id="contact" class="section-contact">
+    <div class="containers">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="form-group">
+                <h1>Contact Us</h1>
+                <p>Follow Thorrington-Smith and Silver on <a href="https://www.linkedin.com/company/thorrington-smith-silver/">LinkedIn</a> to stay up to date with latest job postings and updates.</p>
+                <label for="firstname">First name*</label>
+                <input 
+                    type="text"  name="firstname" id="firstname" required class="form-element"placeholder="John" />
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last name*</label>
+                <input type="text" name="lastname" id="lastname" required class="form-element" placeholder="Doe" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email address*</label>
+                <input type="email" name="email" id="email" required class="form-element" placeholder="john.doe@example.com" />
+            </div>
+            <div class="form-group full">
+                <label for="message">Upload CV</label>
+                <textarea name="message" id="message" class="form-element" placeholder="I would like you to assist with my claim..."></textarea>
+            </div>
+            <div class="submit-group">
+                <input type="submit" class="btn btn-brand ms-lg-3" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                SecureToken: "c3a1c61e-7785-4893-badf-7c0e3ef611b5",
+                To : 'luk3silv3r@gmail.com',
+                From : document.getElementById('email').value,
+                Subject : "New Contact Form Enquiry",
+                Body : document.getElementById("message").value
+             }).then(
+             message => alert(message)
+            );
+        }
+    </script>
+    
+</section>
+
+
+
+</body>
+<footer class="footer-careers">
+    <div class="footer-top text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h4 class="navbar-brand">Thorrington-Smith & Silver<span class="dot">.</span></h4>
+                    
+                    <div class="col-auto social-icons">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div> 
+                        <!-- <a class="address-link" href="http://maps.apple.com/?q=64+Armstrong+Ave,+La+Lucia,+Umhlanga,+4051"><i class='bx bx-location-plus'></i> 64 Armstrong Ave, La Lucia</a> -->
+                    </div>
+                   
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <p> </p>
+    </div>
+    <div class="footer-bottom text-center">
+        
+        <p class="mb-0">@2022 Thorrington-Smith & Silver.</p>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

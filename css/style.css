@@ -15,24 +15,10 @@ body {
     line-height: 1.7;
 }
 
-.fab {
-    position: fixed;
-    bottom: 32px;
-    right: 40px;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+.logo{
+    width: 40px;
+    height: 40px;
     
-    
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.fab:hover {
-    cursor: pointer;
 }
 
 .box {
@@ -131,14 +117,14 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/CarAccident.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/CarAccident.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/UmhlangaPier.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/UmhlangaPier.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,6 +138,13 @@ section {
 /* navbar */
 .top-nav {
     background-color: var(--brand);
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav-careers{
+    background-color: black;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -268,7 +261,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(255, 41, 41, 0.85), rgba(255, 41, 41, 0.85)), url(../img/DurbanHabour.webp);
+    background: linear-gradient(rgba(255, 41, 41, 0.85), rgba(255, 41, 41, 0.85)), url(../img/DurbanHabour.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -477,11 +470,19 @@ text-align: center;}
 }
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/JusticeBalance.webp), #082032;;
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/JusticeBalance.jpg), #082032;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.footer-careers {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/JusticeBalance.jpg), #000000;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .address-link{
     color: #ADB3B9;
   
@@ -562,6 +563,8 @@ input.form-control {
     padding-bottom: 20px;
     background-image: linear-gradient(175deg,#ff2929 50%, #fff 50% );
 }
+
+
 
 .containers {
     max-width: 1280px;
