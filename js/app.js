@@ -27,7 +27,7 @@ $(document).ready(function () {
         loop: true,
         nav: false,
         items: 2,
-        dots: true,
+        dots: false,
         smartSpeed: 600,
         center: true,
         autoplay: true,
@@ -46,7 +46,7 @@ $(document).ready(function () {
     $('.reviews-slider').owlCarousel({
         loop: true,
         nav: false,
-        dots: true,
+        dots: false,
         smartSpeed: 900,
         items: 1,
         margin: 24,
