@@ -21,27 +21,6 @@ $(document).ready(function () {
         }
     })
 
-    
-
-    $('#projects-slider').owlCarousel({
-        loop: true,
-        nav: false,
-        items: 2,
-        dots: false,
-        smartSpeed: 600,
-        center: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2,
-                margin: 8,
-            }
-        }
-    })
 
     $('.reviews-slider').owlCarousel({
         loop: true,
@@ -73,7 +52,7 @@ $('.team-slider').owlCarousel({
         768: {
             items: 3,
             margin: 8,
-        }
-    }
+        },
+}
 })
 });
