@@ -71,6 +71,10 @@ $('.team-slider').owlCarousel({
             items: 1
         },
         768: {
+            items: 2,
+            margin: 8,
+        },
+        966:{
             items: 3,
             margin: 8,
         }
