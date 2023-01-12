@@ -1,4 +1,4 @@
-@import url('htbx bxs-phone-calltps://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
 
 :root {
     --brand: #ff2929;
@@ -563,6 +563,25 @@ input.form-control {
     padding-bottom: 20px;
     background-image: linear-gradient(175deg,#ff2929 50%, #fff 50% );
 }
+
+.careers-contact {
+    min-height: 100vh;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    background: url("../img/MarblePillars.jpg") no-repeat;
+    background-image: linear-gradient(175deg,#ff2929 50%, #fff 50% );
+}
+
+/* .careers-background {
+    min-height: 100vh;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    overflow: visible;
+    background: url("../img/MarblePillars.jpg") no-repeat;
+    -webkit-mask-image: linear-gradient(175deg,black 50%, transparent 50%);
+    mask-image: linear-gradient(175deg,black 50%, transparent 50%);
+
+} */
 
 
 

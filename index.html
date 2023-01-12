@@ -355,7 +355,7 @@
 <!-- CONTACT -->
     <section id="contact" class="section-contact">
         <div class="containers">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form id="form_id">
                 <div class="form-group">
                     <h1>Contact Us</h1>
                     <p>Call us on <a href="tel:031 307 5171" aria-label="Call Link">031 307 5171</a> or 
@@ -387,34 +387,13 @@
             </form>
         </div>
         
-        <script>
-            // function sendEmail(){
-            //     Email.send({
-            //         SecureToken: "f75a8fd3-a03d-4ead-890d-6e99be8875f9",
-            //         To : 'lukesilver12234@gmail.com',
-            //         From : document.getElementById('email').value,
-            //         Subject : "New Contact Form Enquiry",
-            //         Body : document.getElementById("message").value
-            //      }).then(
-            //      message => alert(message)
-            //     );
-            // }
-
-            function sendEmail(){Email.send({
-    SecureToken : "0c8eb89f-04a0-465b-a67b-2ba831393ae8",
-    To : 'tsandslaw@gmail.com',
-    From : "lukesilver12234@gmail.com",
-    Subject : "New Contact Form Enquiry",
-    Body : document.getElementById("message").value
-}).then(
-  message => alert(message)
-);
-            }
-        </script>
-        <div class="map">
-        <iframe class="map" title="GoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.788131271533!2d31.064218215584447!3d-29.754844324828387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7061021ca1617%3A0x98b7fddb2d4c2fc!2s64%20Armstrong%20Ave%2C%20La%20Lucia%2C%20Umhlanga%2C%204051!5e0!3m2!1sen!2sza!4v1672135097412!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-        </div>
-    </section>
+        <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+    <script>
+var formx = FormX.set()
+formx.trackProject('TSLAW_a932fec0-b5ee-4e03-a967-933abe685264')
+formx.trackForm('Leads_7802ecb5-b922-44c2-82b0-c07a32166005', 'form_id')
+formx.start()
+</script>
 
 
 
