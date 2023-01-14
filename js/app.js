@@ -65,7 +65,7 @@ $('.team-slider').owlCarousel({
     items: 3,
     margin: 24,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 4200,
     responsive: {
         0: {
             items: 1
