@@ -19,6 +19,16 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-483216378"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-483216378');
+</script>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
     <!-- TOP NAV -->
@@ -63,9 +73,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#team" aria-label="Team">Team</a>
                     </li> 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="careers.html" aria-label="Careers">Careers</a>
-                    </li> 
+                    </li>  -->
                 </ul>
                 <div class="mobileHide"> 
                     <a href="#contact" class="btn btn-brand ms-lg-3" aria-label="Contact">Contact</a>
@@ -340,20 +350,6 @@
                 <p>Senior Partner</p>
             </div>
         </div>
-        <div class="col-lg-12 col-md-12">
-            <div class="team-member">
-                <div class="image">
-                    <img src="img/team_3.jpg" alt="lawyer 4">
-                    <div class="social-icons">
-                        <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-
-                    </div>
-                    <div class="overlay"></div>
-                </div>
-                <h5>Wade Silver</h5>
-                <p>Senior Partner</p>
-            </div>
-        </div>
 </div>
 </div>
 </div>
@@ -379,6 +375,10 @@
                 <div class="form-group">
                     <label for="email">Email address*</label>
                     <input type="email" name="email" id="email" required class="form-element" placeholder="john.doe@example.com" />
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone number*</label>
+                    <input type="number" name="phone-number" id="phone-number" required class="form-element" placeholder="072 083 8803" />
                 </div>
                 <div class="form-group full">
                     <label for="message">Tell us about your claim</label>
